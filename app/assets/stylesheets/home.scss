@@ -4,6 +4,10 @@
 
 @import 'components/tab';
 @import 'components/carousel';
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+* {
+  font-family: 'Indie Flower', cursive;
+}
 
 .invisible {
   display: none;
@@ -20,7 +24,7 @@ a {
 }
 
 body {
-  font-family: "Merriweather", serif;
+  // font-family: "Merriweather", serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -132,7 +136,10 @@ body {
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  background: #3b3b58;
+  background: #403B4A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .footer p {
   opacity: .65;

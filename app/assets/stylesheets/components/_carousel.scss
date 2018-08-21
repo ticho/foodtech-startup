@@ -10,7 +10,7 @@
   height: 400px;
 }
 
-/* Hide the images by default */
+// Setting the BG for each image
 
 .mySlides {
   display: none;
@@ -29,11 +29,6 @@
 #img-3 {
   background: url(asset_path('food-3.jpg')) center center no-repeat;
   background-size: 100%;
-}
-
-.image {
-  /* height: 400px; */
-  max-width: 100%;
 }
 
 /* Next & previous buttons */
@@ -77,16 +72,6 @@
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
-
-/* Number text (1/3 etc) */
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
 }
 
 /* The dots/bullets/indicators */
@@ -135,8 +120,9 @@
 }
 
 .mySlides h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 35px;
+  // font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  color: purple;
 }
 .mySlides h1 span {
   font: 700 60px/1 "Dancing Script", cursive;

@@ -15,26 +15,32 @@ div.tab-container {
 }
 
 div.content.active {
-  height: 200px;
-  border: red 1px solid;
+  height: 150px;
+  border: grey 1px solid;
   border-top: none;
   text-align: center;
   background: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
 }
 
 ul.tabs > li > a {
-  padding: 5px;
+  padding: 20px;
   text-decoration: none;
+  width: 200px;
   // color: grey;
 }
 a.active {
   color: black;
   font-weight: strong;
-  border: green 1px solid;
+  // border: grey 1px solid;
   border-bottom: none;
-  background: yellow;
+  background: #FFF8DC;
+  background: linear-gradient(to top, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
 }
 
-div.tab-header {
-  // background: purple;
+a:visited {
+  color: black;
 }
