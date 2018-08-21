@@ -1,6 +1,6 @@
 // Carousel
 var slideIndex = 1;
-// showSlides(slideIndex);
+showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -15,7 +15,6 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  console.log(slides)
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {
     slideIndex = 1
@@ -33,7 +32,6 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-currentSlide(slideIndex);
 window.setInterval(nextSlide, 5000)
 
 function nextSlide() {
