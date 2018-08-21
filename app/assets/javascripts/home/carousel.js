@@ -37,3 +37,16 @@ window.setInterval(nextSlide, 5000)
 function nextSlide() {
   plusSlides(1)
 }
+
+// linking prev and next buttons with jquery
+$('a.prev').on('click', function(e) {
+  plusSlides(-1)
+})
+$('a.next').on('click', function(e) {
+  plusSlides(1)
+})
+
+// dot buttons with jquery
+$('span.dot').on('click', function(e){
+  currentSlide(this.attributes.value.nodeValue)
+})
