@@ -8,7 +8,7 @@
         <a href='#tab2'>Présentation</a>
       </li>
       <li>
-        <a href='#tab3'>Nous trouver</a>
+        <a href='#tab3'>Et Nous?</a>
       </li>
     </ul>
   </div>
@@ -30,6 +30,9 @@
     </div>
 </div>
 
+<%= javascript_include_tag 'home/tab' %>
+
+<% if false %>
 <script>
   $('ul.tabs').each(function () {
     // For each set of tabs, we want to keep track of
@@ -71,3 +74,4 @@
     });
   });
 </script>
+<% end %>

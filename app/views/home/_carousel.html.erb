@@ -27,7 +27,9 @@
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
+<%= javascript_include_tag 'home/carousel' %>
 
+<% if false %>
 <script>
   var slideIndex = 1;
   showSlides(slideIndex);
@@ -68,3 +70,4 @@
     plusSlides(1)
   }
 </script>
+<% end %>

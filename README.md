@@ -1,24 +1,12 @@
-# README
+# Foodtech Startup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Link to production : [https://food-startup.herokuapp.com](https://food-startup.herokuapp.com)
 
-Things you may want to cover:
+Landing page of a foodtech startup, we made a carousel and a tab using jquery.
+The images were found on unsplash and the template on codepen.
 
-* Ruby version
+## Gems used
 
-* System dependencies
+`jquery-rails` to install jquery locally.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+We use `sqlite3` in dev and `pg` on Heroku.
