@@ -32,6 +32,7 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
+// changing image every 5 seconds
 window.setInterval(nextSlide, 5000)
 
 function nextSlide() {
