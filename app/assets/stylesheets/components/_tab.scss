@@ -1,0 +1,40 @@
+ul.tabs {
+  // background: pink;
+  display: flex;
+  justify-content: space-around;
+}
+ul.tabs > li {
+  display: inline;
+}
+
+div.tab-container {
+  // border: black 1px solid;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.content.active {
+  height: 200px;
+  border: red 1px solid;
+  border-top: none;
+  text-align: center;
+  background: none;
+}
+
+ul.tabs > li > a {
+  padding: 5px;
+  text-decoration: none;
+  // color: grey;
+}
+a.active {
+  color: black;
+  font-weight: strong;
+  border: green 1px solid;
+  border-bottom: none;
+  background: yellow;
+}
+
+div.tab-header {
+  // background: purple;
+}
